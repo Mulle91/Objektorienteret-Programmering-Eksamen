@@ -61,7 +61,9 @@ namespace CarSimulator
 
                 else if (answar == 3)
                 {
-                    Console.WriteLine("this works");
+                    Console.WriteLine("Please come again" +
+						"");
+					continue;
                 }
                 else if (answar > 4)
                 {
