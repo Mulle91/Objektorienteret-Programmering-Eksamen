@@ -12,10 +12,15 @@ namespace CarSimulator
         public int wheels;
         public int windows;
         public int doors;
-        
+
+		public Vehicle(string v)
+		{
+		}
+
+		//This is some of the info about the car//
 
 
-        public void Audi()
+		public void Audi()
         {
             wheels = 4;
             doors = 4;

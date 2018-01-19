@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace CarSimulator
 {
     class Option
+
+		//This is a list of options//
     {
         private string ListOfOptions;
 
@@ -28,5 +30,9 @@ namespace CarSimulator
             set { ListOfOptions = value; }
         }
 
-    }
+		internal bool PartsOfCar()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

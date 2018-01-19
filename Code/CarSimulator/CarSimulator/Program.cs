@@ -35,7 +35,10 @@ namespace CarSimulator
 
             while (firstloop)
             {
-                try
+
+				//This is my try catch//
+
+				try
                 {
                     answar = int.Parse(Console.ReadLine().ToLower().Trim());
                 }

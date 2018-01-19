@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace CarSimulator
 {
     class Car
+
+		//Here is what happens in the start of the program//
     {
 
         private string ShopName;
